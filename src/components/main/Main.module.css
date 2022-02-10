@@ -1,0 +1,8 @@
+.main{
+    border-left: 5px solid rgba(38, 114, 253, 0.534);
+    border-top: 5px solid rgba(38, 114, 253, 0.534);
+    border-bottom: 5px solid rgba(38, 114, 253, 0.534);
+    border-radius: 30px 0 0 30px;
+    margin-left: 10px;
+    height: 100%;
+}

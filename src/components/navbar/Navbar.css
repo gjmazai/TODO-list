@@ -1,0 +1,7 @@
+.Navbar{
+    height: 100%;
+    min-width: 100%;
+    border: 5px solid rgba(38, 114, 253, 0.534);
+ 
+    border-radius: 0 30px 30px 0;
+}

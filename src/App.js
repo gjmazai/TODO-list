@@ -1,13 +1,15 @@
 import './App.css';
-import Main from './components/main/main';
-import Navbar from './components/navbar/navbar';
+import Header from './components/Header/Header';
+import Main from './components/main/Main';
+import Navbar from './components/navbar/Navbar';
 
-let App = () => {
+let App = (props) => {
   return (
-    <div className="App">
-      <Navbar />
-      <Main />
-    </div>
+    <div className='App'>
+      <Header className="Head" />
+      <Navbar className="Nav" state={props.state} updateMainPageData={props.updateMainPageData} /> {/*пробрасываю state через пропсы к компонентам*/}
+      <Main className="Main" mainPageData={props.state.mainPage} />
+    </div >
   );
 }
 

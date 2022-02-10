@@ -1,0 +1,14 @@
+.element{
+    text-decoration: none;
+}
+
+.el{
+    /* border-bottom: 2px solid grey; */
+    height: 1.7em;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to left, transparent 0%, rgb(196, 196, 196) 45%);
+    border-image-slice: 1;
+    color: rgb(3,3,3);
+    font-style: italic;
+    font-weight: 400;
+}
